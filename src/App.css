@@ -33,9 +33,18 @@ header .button {
  width: 40px !important;
  height: 40px !important;
  background: #f0f5ff !important;
- border-radius: 50% !important; 
+ border-radius: 50% !important;
  color: #313025;
  font-size: 18px;
+ transition: all 0.3s ease-in-out;
+ -webkit-transition: all 0.3s ease-in-out;
+ -moz-transition: all 0.3s ease-in-out;
+ -ms-transition: all 0.3s ease-in-out;
+ -o-transition: all 0.3s ease-in-out;
+}
+header .button:hover {
+  background: #2da8d8 !important;
+  color: #ffff !important;
 }
 .search {
   width: 300px;
@@ -53,6 +62,99 @@ header .button {
   font-size: 16px;
   color: #313025;
 }
+ .userImg{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+ border: 1px solid #08690d;
+ border-radius: 100%;
+ width: 40px;
+ height: 40px;
+ padding: 2px;
+ -webkit-border-radius: 100%;
+ -moz-border-radius: 100%;
+ -ms-border-radius: 100%;
+ -o-border-radius: 100%;
+}
 
+
+ .userImg .rounded-circle{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+ cursor: pointer;
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+.myAcc{
+  text-align: left !important;
+  color: #313025 !important;
+  text-transform: capitalize !important;
+}
+.myAcc .userImg .rounded-circle img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.myAcc .userInfo h4 {
+  font-size: 16px;
+  color: #313025;
+  font-weight: 600;
+
+  margin-bottom: 0px;
+}
+
+.myAcc .userInfo{
+  padding-left: 10px;
+}
+.myAcc .userInfo p{
+  font-size: 12px;
+  color: #313025;
+  font-weight: 600;
+}
+
+#notifyMenu .MuiPaper-elevation {
+  right: 18% !important;
+  left: auto !important;
+
+}
+
+ .notifyMenu_dropdown h4{
+ font-size: 20px !important;
+ color: #313025 !important;
+ font-weight: 600 !important;
+ margin-bottom: 0px !important;
  
+ }
+ .notify_info h4 span{
+  width: 100% !important;
+  font-size: 15px !important;
+  color: #313025 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  margin-bottom: 5px !important;
+ }
+ .notify_item{
+  width: 300px !important;
+  padding: 3px !important;
+  border-radius: 4px !important;
+  cursor: pointer;
+  gap:5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+ }
+ .notify_info{
+  overflow: scroll;
+  gap: 10px;
+  padding: 10px;
+ }
 
