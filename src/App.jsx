@@ -1,8 +1,10 @@
 import React from 'react'
 
+import {Routes,Route} from 'react-router-dom'
+
 export default function App() {
   return (
-    <div className="text-3xl font-bold font-tag underline">
+    <div style={{fontFamily:"Tagesschrift"}} className="text-3xl">
       hasan
     </div>
   )
