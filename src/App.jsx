@@ -1,11 +1,22 @@
 import React from 'react'
-
-import {Routes,Route} from 'react-router-dom'
+import './App.css'
+import Dashboard from './pages/Dashboard'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import {Routes,Route,BrowserRouter} from 'react-router-dom'
+import Header from './components/Header'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
-    <div style={{fontFamily:"Tagesschrift"}} className="text-3xl">
-      hasan
-    </div>
+    <BrowserRouter>
+    <Header/>
+    <Routes>
+      <Route path='/' element={<Dashboard/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+    </Routes>
+   </BrowserRouter>
   )
 }

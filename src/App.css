@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Tagesschrift", system-ui;
+  background: #ebe9e9;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+}
