@@ -147,10 +147,6 @@ header .button:hover {
   align-items: center;
   justify-content: space-between;
   transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
  }
  .notify_info{
   overflow: scroll;
@@ -158,3 +154,10 @@ header .button:hover {
   padding: 10px;
  }
 
+.notification
+{
+  width: 900px !important;
+  height: 530px !important;
+
+  
+}

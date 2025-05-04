@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, Links } from "react-router";
 import Logo from "../assets/images/Dashboard.png";
 import Button from "@mui/material/Button";
 import { TfiMenuAlt } from "react-icons/tfi";
@@ -67,9 +67,11 @@ export default function Header() {
               <MdEmail />
             </Button>
 
-            <Button onClick={handleNotify} className="button mr-3">
-              <MdNotificationsActive />
-            </Button>
+            <Link to="/notification">
+              <Button className="button mr-3">
+                <MdNotificationsActive />
+              </Button>
+            </Link>
 
             <Menu
               notifyMenu={notifyMenu}
