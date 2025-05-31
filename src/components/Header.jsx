@@ -123,12 +123,12 @@ export default function Header() {
                       </span>
                     </div>
                     <div className="notify_info">
-                      <h4>
+                      <h3>
                         <span>
                           <b>Hasan Mahmud</b>
                           <p>Lorem ipsum dolor sit amet, enim.</p>
                         </span>
-                      </h4>
+                      </h3>
                     </div>
                   </div>
                 </div>
