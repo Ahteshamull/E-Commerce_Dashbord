@@ -111,7 +111,7 @@ export default function Header() {
               anchorOrigin={{ horizontal: "left", vertical: "bottom" }}
             >
               <div className="notifyItems pl-3 pb-2">
-                <h4>Order (10)</h4>
+                <h3>Order (10)</h3>
               </div>
               <Divider />
               <MenuItem onClick={handleCloseNotify}>
