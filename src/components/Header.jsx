@@ -54,7 +54,7 @@ export default function Header() {
             </Button>
             <SearchBox />
           </div>
-          <div className="col-sm-7 pl-4  d-flex justify-content-end align-items-center part3">
+          <div className="col-sm-7 pl-5  d-flex justify-content-end align-items-center part3">
             <Button className="button mr-3">
               <MdOutlineLightMode />
             </Button>
