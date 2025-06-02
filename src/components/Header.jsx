@@ -125,7 +125,7 @@ export default function Header() {
                     <div className="notify_info">
                       <h3>
                         <span>
-                          <b>Hasan Khan</b>
+                          <b>Hasan Mahmud</b>
                           <p>Lorem ipsum dolor sit amet, enim.</p>
                         </span>
                       </h3>
