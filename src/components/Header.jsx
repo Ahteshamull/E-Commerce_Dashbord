@@ -1,14 +1,12 @@
 import React from "react";
-import { Link, Links } from "react-router";
+import { Link } from "react-router";
 import Logo from "../assets/images/Dashboard.png";
 import Button from "@mui/material/Button";
 import { TfiMenuAlt } from "react-icons/tfi";
 
 import SearchBox from "./SearchBox";
-import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import { MdOutlineLightMode } from "react-icons/md";
-import { BsFillMoonFill } from "react-icons/bs";
 import { MdShoppingCart } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { MdNotificationsActive } from "react-icons/md";
