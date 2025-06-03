@@ -108,7 +108,7 @@ export default function Header() {
               transformOrigin={{ horizontal: "left", vertical: "top" }}
               anchorOrigin={{ horizontal: "left", vertical: "bottom" }}
             >
-              <div className="notifyItems pl-3 pb-2">
+              <div className="notifyItems pl-4 pb-2">
                 <h3>Order (09)</h3>
               </div>
               <Divider />
