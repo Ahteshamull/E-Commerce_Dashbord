@@ -124,7 +124,7 @@ export default function Header() {
                       <h3>
                         <span>
                           <b>Hasan Mahmud</b>
-                          <p>Lorem ipsum dolor sit amet1, enim.</p>
+                          <p>Lorem ipsum dolor sit ametuyn, enim.</p>
                         </span>
                       </h3>
                     </div>
